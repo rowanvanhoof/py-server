@@ -1,0 +1,56 @@
+<!DOCTYPE html lang='en'>
+<html>
+
+<head>
+    <title>
+        Rowan Vanhoof's Website
+    </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href='styles.css'>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="content">
+		<h1 style="background-color: red">
+			Github pages doesn't allow PHP. Until this website is moved to another hosting service, the form is not functional. For now, email me. vanhoof.rowan@gmail.com
+		</h1>
+		<header>
+			<h1>
+				Rowan Vanhoof
+			</h1>
+		</header>
+		<div class="main-section">
+			<section>
+				<form role="form" action="contact.php" method="post" class="contact-form">
+					<div class="form-row">
+						<label for="full_name">
+							<h2>Name</h2>
+						</label>
+						<input type="text" name="full_name" id="full_name" placeholder="Enter Name"/>
+					</div>
+					<div class="form-row">
+						<label for="email_addr">
+							<h2>Email</h2>
+						</label>
+						<input type="text" name="email_addr" id="email_addr" placeholder="Enter email address"/>
+					</div>
+					<div class="form-row">
+						<label for="Message">
+							<h2>Message</h2>
+						</label>
+						<textarea name="msg_box" placeholder="Enter a brief message"></textarea>
+						<input type="submit" name="submit" class="send_msg" value="Send">
+					</div>
+				</form>
+			</section>
+			<section class="footer">
+				<a class="button" href="index.html">About me</a>
+				<a class="button" href="work.html">My work</a>
+			</section>
+		</div>
+	</div>
+</body>
